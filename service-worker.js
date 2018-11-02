@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "%7Baccount%7D.github.io/%7Bname%7D/precache-manifest.abca3c39314ed07b45d4e521a62441cc.js"
+  "/react_pistol_app/precache-manifest.f81015dea9ee9f7befd2541818fbcefa.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("%7Baccount%7D.github.io/%7Bname%7D/index.html", {
+workbox.routing.registerNavigationRoute("/react_pistol_app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
